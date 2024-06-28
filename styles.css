@@ -1,0 +1,29 @@
+@import url("styles/reset.css");
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/metricas.css");
+@import url("styles/vagas.css");
+@import url("styles/depoimento.css");
+@import url("styles/formulario.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --fundo: #f9fafb;
+  --fundo-vermelho: #c3191908;
+  --branco: #fff;
+  --branco-escuro: #eaecf0;
+  --marrom: #8e2424;
+  --marrom-claro: #af4646;
+  --cinza: #667085;
+  --cinza-claro: #98a2b3;
+  --cinza-escuro: #3a404e;
+  --preto: #101828;
+  --fonte: "Inter", sans-serif;
+}
+
+.body {
+  background-color: var(--branco);
+  font-family: var(--fonte);
+  font-weight: 400;
+  font-size: 16px;
+}

@@ -1,0 +1,49 @@
+.container.quinto {
+  background-color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 5em;
+}
+
+.depoimento {
+  background-color: var(--fundo-vermelho);
+  padding: 3em;
+  border-radius: 16px;
+}
+
+.depoimento__subtitulo {
+  font-weight: 600;
+  color: var(--marrom);
+  font-size: 14px;
+}
+
+.depoimento__titulo {
+  color: var(--preto);
+  font-size: 36px;
+  line-height: 44px;
+  padding: 1em;
+}
+
+.depoimento__nome {
+  padding: 1em;
+}
+
+.depoimento__profissao {
+  color: var(--cinza);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 430px) {
+  .depoimento {
+    padding: 3em 0;
+    border-radius: 1em;
+  }
+
+  .depoimento__titulo {
+    padding: 1em 1em;
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
